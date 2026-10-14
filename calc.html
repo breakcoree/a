@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><title>Расчёт заказа</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>🍩 Пончики</h1><nav><a href="index.html">Главная</a><a href="about.html">О нас</a><a href="calc.html">Расчёт заказа</a></nav></header>
+<main><h2>Расчёт стоимости заказа</h2>
+<form id="f">
+<label>Вид пончика:<br><select id="type"><option value="60">Глазурь — 60 ₽</option><option value="80">Шоколад — 80 ₽</option><option value="100">Клубника — 100 ₽</option></select></label>
+<label>Количество:<br><input type="number" id="count" min="1" value="1" required></label>
+<label><input type="checkbox" id="delivery" style="width:auto"> Доставка (150 ₽)</label>
+<button type="submit">Рассчитать</button>
+<div id="result"></div>
+</form></main>
+<script src="script.js"></script>
+<footer>© Пончиковая, 2026</footer></body></html>
